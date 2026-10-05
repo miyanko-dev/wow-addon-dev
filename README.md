@@ -1,4 +1,4 @@
-# wow-dev
+# wow-addon-dev
 
 A Claude Code plugin and Agent Skill for World of Warcraft addon and WeakAura development. It checks every API claim against Blizzard's own UI source for the exact game flavor you target, instead of trusting model memory.
 
@@ -15,20 +15,18 @@ A Claude Code plugin and Agent Skill for World of Warcraft addon and WeakAura de
 ### Claude Code
 
 ```
-/plugin marketplace add miyanko-dev/wow-dev
-/plugin install wow-dev@wow-dev
+/plugin marketplace add miyanko-dev/wow-addon-dev
+/plugin install wow-addon-dev@wow-addon-dev
 ```
 
-It is also listed in [marco-vrinssen/claude-plugins](https://github.com/marco-vrinssen/claude-plugins).
-
-The skill triggers on its own for WoW work. You can also call it with `/wow-dev:wow-dev`.
+The skill triggers on its own for WoW work. You can also call it with `/wow-addon-dev`.
 
 ### Other agents
 
 Codex, Cursor, OpenCode, GitHub Copilot and others that read Agent Skills:
 
 ```
-npx skills add miyanko-dev/wow-dev
+npx skills add miyanko-dev/wow-addon-dev
 ```
 
 ## Requirements
@@ -47,8 +45,8 @@ The plugin has no hooks, no MCP server and no telemetry. It sends no data anywhe
 
 | Action | Where | Stored in |
 |---|---|---|
-| `git clone --depth 1` of one flavor branch, refreshed at most once a day | github.com, public repositories listed below | `~/.cache/wow-dev`, about 40 to 55 MB per flavor |
-| `curl` of LibDeflate, LibSerialize and WeakAuras' `Transmission.lua`, only when WeakAuras is not installed | raw.githubusercontent.com, api.github.com | `~/.cache/wowdev-weakauras` |
+| `git clone --depth 1` of one flavor branch, refreshed at most once a day | github.com, public repositories listed below | `~/.cache/wow-addon-dev`, about 40 to 55 MB per flavor |
+| `curl` of LibDeflate, LibSerialize and WeakAuras' `Transmission.lua`, only when WeakAuras is not installed | raw.githubusercontent.com, api.github.com | `~/.cache/wow-addon-dev/weakauras` |
 | Item and spell lookups by build | wago.tools | not stored |
 | Reads your WeakAuras SavedVariables to match your installed version | local game folder | not copied |
 

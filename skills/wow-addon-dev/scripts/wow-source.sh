@@ -16,7 +16,7 @@ case "$1" in
 esac
 
 branch=${2:?$usage}
-dir="${XDG_CACHE_HOME:-$HOME/.cache}/wow-dev/$1/$branch"
+dir="${XDG_CACHE_HOME:-$HOME/.cache}/wow-addon-dev/$1/$branch"
 stamp="$dir/.git/FETCH_HEAD"
 
 if [ ! -d "$dir/.git" ]; then

@@ -1,12 +1,12 @@
-# wow-dev memory
+# wow-addon-dev memory
 
-Updated 2026-10-05. Packaged as a Claude Code plugin plus Agent Skill and published as `miyanko-dev/wow-dev`. 1.0.1 renamed the marketplace from `miyanko-dev` to `wow-dev`, matching the single-plugin repo convention.
+Updated 2026-10-05. Packaged as a Claude Code plugin plus Agent Skill and published as `miyanko-dev/wow-addon-dev`. 2.0.0 renamed repo, plugin, marketplace and skill from `wow-dev` to `wow-addon-dev`, so all four share one name.
 
 ## Decisions
 
 | Decision | Reason |
 |---|---|
-| One repo is plugin, marketplace (`source: "./"`) and Agent Skill (`skills/wow-dev/`) | One install path for Claude Code, `npx skills add` for other agents |
+| One repo is plugin, marketplace (`source: "./"`) and Agent Skill (`skills/wow-addon-dev/`) | One install path for Claude Code, `npx skills add` for other agents |
 | Lookups use shallow per-branch clones via `scripts/wow-source.sh`, not GitHub MCP | GitHub code search only indexes `live`, MCP returns whole files, MCP needs a token |
 | No bundled MCP server, no `userConfig` | Public clones need no secret |
 | No hard-coded interface numbers or builds | They change every patch, the skill reads them from the branch |

@@ -31,7 +31,7 @@ local LIBSERIALIZE_URL = "https://raw.githubusercontent.com/rossnichols/LibSeria
 local TRANSMISSION_URL = "https://raw.githubusercontent.com/WeakAuras/WeakAuras2/main/WeakAuras/Transmission.lua"
 local RELEASE_URL = "https://api.github.com/repos/WeakAuras/WeakAuras2/releases/latest"
 
-local CACHE = (os.getenv("HOME") or ".") .. "/.cache/wowdev-weakauras"
+local CACHE = (os.getenv("HOME") or ".") .. "/.cache/wow-addon-dev/weakauras"
 
 local function fail(msg)
     io.stderr:write("error: " .. msg .. "\n")

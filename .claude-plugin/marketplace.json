@@ -1,6 +1,6 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
-  "name": "wow-dev",
+  "name": "wow-addon-dev",
   "description": "World of Warcraft addon and WeakAura development. Verifies every API against the matching flavor branch of Blizzard's UI source, covers Midnight secret values, and builds ready-to-paste WeakAura import strings.",
   "owner": {
     "name": "miyanko",
@@ -8,7 +8,7 @@
   },
   "plugins": [
     {
-      "name": "wow-dev",
+      "name": "wow-addon-dev",
       "source": "./",
       "description": "World of Warcraft addon and WeakAura development. Verifies every API against the matching flavor branch of Blizzard's UI source, covers Midnight secret values, and builds ready-to-paste WeakAura import strings.",
       "category": "development"

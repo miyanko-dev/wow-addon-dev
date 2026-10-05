@@ -1,5 +1,5 @@
 ---
-name: wow-dev
+name: wow-addon-dev
 description: world of warcraft addon and weakaura development across retail, mists classic, classic era, anniversary and wow forever. use for writing, reviewing, debugging, simplifying, or designing wow addons and weakauras, for midnight secret values and addon restrictions, and for producing ready-to-paste !WA:2! weakaura import strings. verifies APIs, events, assets, templates, UI patterns, and version differences against the matching flavor branch of gethe/wow-ui-source and ketho/blizzardinterfaceresources, plus weakauras/weakauras2 for weakauras triggers, conditions, prototypes, and custom code behaviour.
 ---
 
@@ -110,7 +110,7 @@ The script resolves its sources itself, preferring a local install because that 
 | Source | Libraries | Transmission version | Version string |
 |---|---|---|---|
 | Local install | its own `Libs/` | `Transmission.lua` | `Init.lua` |
-| GitHub fallback | upstreams pinned by the WeakAuras2 `.pkgmeta`, cached in `~/.cache/wowdev-weakauras` | `Transmission.lua` on `main` | latest release tag |
+| GitHub fallback | upstreams pinned by the WeakAuras2 `.pkgmeta`, cached in `~/.cache/wow-addon-dev/weakauras` | `Transmission.lua` on `main` | latest release tag |
 
 The libraries are not vendored in the WeakAuras2 repo, so remote mode pulls LibDeflate from `SafeteeWoW/LibDeflate` and LibSerialize from `rossnichols/LibSerialize` at the tag the `.pkgmeta` pins. The repo's own `versionString` is the packager placeholder `@project-version@`, which is why remote mode reads the release tag instead. That field is cosmetic anyway, the import path only reads `d`, `c` and `v`.
 

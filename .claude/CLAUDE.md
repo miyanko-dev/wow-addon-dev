@@ -1,4 +1,4 @@
-# wow-dev
+# wow-addon-dev
 
 @../MEMORY.md
 
