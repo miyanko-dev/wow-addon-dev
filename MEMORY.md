@@ -1,6 +1,6 @@
 # wow-dev memory
 
-Updated 2026-10-05. Packaged as a Claude Code plugin plus Agent Skill and published as `miyanko-dev/wow-dev` 1.0.0.
+Updated 2026-10-05. Packaged as a Claude Code plugin plus Agent Skill and published as `miyanko-dev/wow-dev`. 1.0.1 renamed the marketplace from `miyanko-dev` to `wow-dev`, matching the single-plugin repo convention.
 
 ## Decisions
 
@@ -20,4 +20,5 @@ Updated 2026-10-05. Packaged as a Claude Code plugin plus Agent Skill and publis
 
 1. Bump `version` in `.claude-plugin/plugin.json`, or installed copies never update.
 2. Run `claude plugin validate --strict .` and fix every warning.
-3. Tag `vX.Y.Z` and create a GitHub release with the changes.
+3. Add the changes to `CHANGELOG.md`.
+4. Push, wait for the Validate workflow to pass, then tag `vX.Y.Z` and create a GitHub release.

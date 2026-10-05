@@ -16,8 +16,10 @@ A Claude Code plugin and Agent Skill for World of Warcraft addon and WeakAura de
 
 ```
 /plugin marketplace add miyanko-dev/wow-dev
-/plugin install wow-dev@miyanko-dev
+/plugin install wow-dev@wow-dev
 ```
+
+It is also listed in [marco-vrinssen/claude-plugins](https://github.com/marco-vrinssen/claude-plugins).
 
 The skill triggers on its own for WoW work. You can also call it with `/wow-dev:wow-dev`.
 

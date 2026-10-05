@@ -1,15 +1,17 @@
 {
-  "name": "miyanko-dev",
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "wow-dev",
+  "description": "World of Warcraft addon and WeakAura development. Verifies every API against the matching flavor branch of Blizzard's UI source, covers Midnight secret values, and builds ready-to-paste WeakAura import strings.",
   "owner": {
     "name": "miyanko",
     "url": "https://github.com/miyanko-dev"
   },
-  "description": "Claude Code plugins for World of Warcraft addon development by miyanko.",
   "plugins": [
     {
       "name": "wow-dev",
       "source": "./",
-      "description": "World of Warcraft addon and WeakAura development, verified against Blizzard's UI source per flavor."
+      "description": "World of Warcraft addon and WeakAura development. Verifies every API against the matching flavor branch of Blizzard's UI source, covers Midnight secret values, and builds ready-to-paste WeakAura import strings.",
+      "category": "development"
     }
   ]
 }
