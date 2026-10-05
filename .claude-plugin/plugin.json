@@ -1,0 +1,20 @@
+{
+  "name": "wow-dev",
+  "displayName": "WoW Dev",
+  "version": "1.0.0",
+  "description": "World of Warcraft addon and WeakAura development. Verifies every API against the matching flavor branch of Blizzard's UI source, covers Midnight secret values, and builds ready-to-paste WeakAura import strings.",
+  "author": {
+    "name": "miyanko",
+    "url": "https://github.com/miyanko-dev"
+  },
+  "homepage": "https://github.com/miyanko-dev/wow-dev",
+  "repository": "https://github.com/miyanko-dev/wow-dev",
+  "license": "MIT",
+  "keywords": [
+    "world-of-warcraft",
+    "wow-addon",
+    "weakauras",
+    "lua",
+    "secret-values"
+  ]
+}

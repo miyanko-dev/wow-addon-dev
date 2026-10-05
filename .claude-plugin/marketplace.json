@@ -1,0 +1,15 @@
+{
+  "name": "miyanko-dev",
+  "owner": {
+    "name": "miyanko",
+    "url": "https://github.com/miyanko-dev"
+  },
+  "description": "Claude Code plugins for World of Warcraft addon development by miyanko.",
+  "plugins": [
+    {
+      "name": "wow-dev",
+      "source": "./",
+      "description": "World of Warcraft addon and WeakAura development, verified against Blizzard's UI source per flavor."
+    }
+  ]
+}
