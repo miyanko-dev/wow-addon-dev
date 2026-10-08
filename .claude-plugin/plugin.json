@@ -2,7 +2,7 @@
   "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "wow-addon-dev",
   "displayName": "WoW Addon Dev",
-  "version": "2.0.0",
+  "version": "1.0.0",
   "description": "World of Warcraft addon and WeakAura development. Verifies every API against the matching flavor branch of Blizzard's UI source, covers Midnight secret values, and builds ready-to-paste WeakAura import strings.",
   "author": {
     "name": "miyanko",
