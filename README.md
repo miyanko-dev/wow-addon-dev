@@ -15,7 +15,7 @@ A Claude Code plugin and Agent Skill for World of Warcraft addon and WeakAura de
 ### Claude Code
 
 ```
-/plugin marketplace add miyanko-dev/wow-addon-dev
+/plugin marketplace add studio-miyanko/wow-addon-dev
 /plugin install wow-addon-dev@wow-addon-dev
 ```
 
@@ -26,7 +26,7 @@ The skill triggers on its own for WoW work. You can also call it with `/wow-addo
 Codex, Cursor, OpenCode, GitHub Copilot and others that read Agent Skills:
 
 ```
-npx skills add miyanko-dev/wow-addon-dev
+npx skills add studio-miyanko/wow-addon-dev
 ```
 
 ## Requirements
